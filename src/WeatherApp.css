@@ -26,6 +26,7 @@ body {
     cursor: pointer;
     border-radius: 4px;
     color: #f0f0f0;
+    background-color: blue;
   }
   
   .weather-app {
@@ -84,6 +85,7 @@ body {
   }
   a {
     color: #00366f;
+    text-decoration: none;
   }
   
   footer {

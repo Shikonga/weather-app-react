@@ -33,20 +33,20 @@ export default function Header() {
           placeholder="Enter city name.."
           value={city}
           onChange={showCity}
-        />
-        <button type="submit">Search</button>
+        className="search-city-input"/>
+        <button type="submit" className="button-search">Search</button>
       </form>
 
       {weatherData && (
         <div className="weather-app-data">
           <div>
             <h1 className="weather-app-city" id="showCity">
-              {city}
+              {city} 🏙️
             </h1>
             <p className="weather-app-details">
-              <span id="current-date-time">{new Date().toDateString()} 
+              <span id="current-date-time">📅{new Date().toDateString()} 
               <br />
-              {new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>{" "}
+              🕛{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>{" "}
               <br />
               {weatherData.weather[0].description}
               <br />
