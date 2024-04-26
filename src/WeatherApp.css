@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 0 30px 0;
+  }
+  
+  .search-city-input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .button-search {
+    padding: 10px;
+    margin: 0px 0px 0px 5px;
+    background-color: #00366f;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #f0f0f0;
+  }
+  
+  .weather-app {
+    max-width: 600px;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /*display: flex;
+      flex-direction: column;*/
+  }
+  
+  main {
+    padding: 30px 0;
+  }
+  
+  .weather-app-data {
+    display: flex;
+    justify-content: space-between;
+  }
+  .weather-app-city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .weather-app-details {
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.8;
+    font-weight: 500;
+  }
+  
+  .humidity,
+  .wind {
+    color: #f65282;
+  }
+  .temperature-input {
+    display: flex;
+    /*margin-left: 100px;
+      padding-left: 80px;*/
+  }
+  .weather-icon {
+    font-size: 45px;
+    margin-right: 5px;
+  }
+  .temp-value {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .temp-unit {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  a {
+    color: #00366f;
+  }
+  
+  footer {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 14px;
+    margin-top: auto;
+  }
+  
+  .day-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .day-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 0.25rem;
+  }
+  .day-card-day {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00366f;
+    margin-top: 0.5rem;
+  }
+  
+  .weather-forecast-icon {
+    font-size: 30px;
+    /*display: block;
+      margin: 0 auto;*/
+  }
+  
+  .day-card div {
+    margin-top: 5px;
+  }
+  
