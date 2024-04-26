@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Header() {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("Nairobi");
   const [weatherData, setWeatherData] = useState(null);
  
   
